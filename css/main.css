@@ -1383,7 +1383,7 @@ body.is-touch .poptrox-popup .nav-next,  body.is-touch .poptrox-popup .nav-previ
 	cursor: default;
 }
 #header h1 a {
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 #header nav {
 	position: absolute;
@@ -1406,17 +1406,19 @@ body.is-touch .poptrox-popup .nav-next,  body.is-touch .poptrox-popup .nav-previ
 	text-decoration: none;
 	height: 3em;
 	line-height: 3em;
-	padding: 0 0.5em 0 0.5em;
+	padding: 0 2em 0 2em;
 	outline: 0;
+    font-weight: 600;
 }
 #header nav ul li a:hover {
-	background-color: #EEE;
-	border: 1px solid #999
+	color: #e62b1e;
+	box-shadow: inset 0 0 0 4px #e62b1e;
+	transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 736px) {
 #header {
-	height: 2.5em;
+	height: 3em;
 	line-height: 2.5em;
 }
 #header h1 {

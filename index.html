@@ -134,6 +134,27 @@
 					</div>
 				</div>
 			</section>--> 
+			<section id="sketch-sec">
+			<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+            <header>
+      <h2>Write What You Want!</h2>
+      <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+        Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
+        arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+    </header>
+				
+				<div class="tools">
+  <a href="#colors_sketch" data-download="png" style="float: right; width: 100px;">Download</a>
+   <a href="#tools_sketch" data-tool="eraser">Eraser</a>
+</div>
+<canvas id="colors_sketch" style="width:100%;height:100%;" width="800" height="300"></canvas>
+		</div>
+				</div>
+				</div>
+				
+			</section>
 
 <!-- Nominate -->
 <section id="cta">
@@ -199,7 +220,21 @@
 <script src="js/jquery.scrollex.min.js"></script> 
 <script src="js/skel.min.js"></script> 
 <script src="js/util.js"></script> 
+<script src="js/sketch.js"></script>
 <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--> 
 <script src="js/main.js"></script>
+
+<script type="text/javascript">
+  $(function() {
+    $.each(['#f00', '#ff0', '#0f0', '#0ff', '#00f', '#f0f', '#000', '#fff'], function() {
+      $('#colors_demo .tools').append("<a href='#colors_sketch' data-color='" + this + "' style='width: 10px; background: " + this + ";'></a> ");
+    });
+    $.each([3, 5, 10, 15], function() {
+      $('#colors_demo .tools').append("<a href='#colors_sketch' data-size='" + this + "' style='background: #ccc'>" + this + "</a> ");
+    });
+    $('#colors_sketch').sketch();
+  });
+</script>
+
 </body>
 </html>

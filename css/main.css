@@ -342,6 +342,7 @@ body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 }
 body {
 	text-decoration: none;
+	overflow-x: hidden;
 }
 body:before {
 	-moz-animation: spinner-show 1.5s 1 0.25s ease forwards, spinner-hide 0.25s ease-in-out forwards !important;
@@ -1774,4 +1775,14 @@ body.is-touch .main {
 #contact .box {
 	padding-bottom: 2em;
 }
+}
+
+#sketch-sec{
+	height: 540px;
+}
+
+#colors_sketch{
+	border: 1px solid #000;
+	margin: 0 auto;
+	display: block;
 }

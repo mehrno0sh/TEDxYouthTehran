@@ -98,7 +98,8 @@
     <div class="gallery">
       <article class="from-left"> <a target="_blank" href="https://youtu.be/QWAlzKsrW7I?list=PLSatVjzQd2dTUDCQ9sZZdvlAwgSPXDZ_b" class="image fit"><img src="images/thumbs/01.jpg" title="Story of My Life" alt="Amirali Nabavian" />
         <h3>Story of My Life</h3>
-        </a> </article>
+        </a>
+      </article>
       <article class="from-right"> <a target="_blank" href="https://youtu.be/pghM2YGiFV8?list=PLSatVjzQd2dTUDCQ9sZZdvlAwgSPXDZ_b" class="image fit"><img src="images/thumbs/02.jpg" title="Nurture Your Passion" alt="Alireza Eskandari" />
         <h3>Nurture Your Passion</h3>
         </a> </article>
@@ -133,28 +134,32 @@
 						</form>
 					</div>
 				</div>
-			</section>--> 
-			<section id="sketch-sec">
-			<div class="container">
+			</section>-->
+<section id="sketch-sec">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
-            <header>
-      <h2>Write What You Want!</h2>
-      <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-        Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-        arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
-    </header>
-				
+        <header>
+          <h2>Write What You Want!</h2>
+          <p>
+            Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
+            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
+            arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.
+          </p>
+        </header>
+			</div>
+      <div class="col-md-12" id="sketch-toolbar">
 				<div class="tools">
-  <a href="#colors_sketch" data-download="png" style="float: right; width: 100px;">Download</a>
-   <a href="#tools_sketch" data-tool="eraser">Eraser</a>
-</div>
-<canvas id="colors_sketch" style="width:100%;height:100%;" width="800" height="300"></canvas>
-		</div>
-				</div>
-				</div>
-				
-			</section>
+          <a href="#colors_sketch" data-download="png" style="float: right; width: 100px;">Download</a>
+          <a href="#colors_sketch" data-tool="eraser">Eraser</a>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <canvas id="colors_sketch" width="1170" height="300"></canvas>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Nominate -->
 <section id="cta">
@@ -227,10 +232,10 @@
 <script type="text/javascript">
   $(function() {
     $.each(['#f00', '#ff0', '#0f0', '#0ff', '#00f', '#f0f', '#000', '#fff'], function() {
-      $('#colors_demo .tools').append("<a href='#colors_sketch' data-color='" + this + "' style='width: 10px; background: " + this + ";'></a> ");
+      $('#sketch-toolbar .tools').append("<a href='#colors_sketch' data-tool='marker' data-color='" + this + "' style='width: 10px; background: " + this + ";'></a> ");
     });
     $.each([3, 5, 10, 15], function() {
-      $('#colors_demo .tools').append("<a href='#colors_sketch' data-size='" + this + "' style='background: #ccc'>" + this + "</a> ");
+      $('#sketch-toolbar .tools').append("<a href='#colors_sketch' data-tool='marker' data-size='" + this + "' style='background: #ccc'>" + this + "</a> ");
     });
     $('#colors_sketch').sketch();
   });

@@ -38,26 +38,35 @@
 }
 /* Sketch */
 
-#sketch-sec{
-	background-color: #fff;
+#sketch-sec {
+	background: url(../images/white-wall.jpg);
 }
-      article canvas {
-        width: 800px;
-        height: 300px;
-        border: 1px solid #ccc;
-      }
-
-      pre.source {
-        background: #e5eeee;
-        padding: 10px 20px;
-        width: 760px;
-        overflow-x: auto;
-        border: 1px solid #acc;
-      }
-
-      code { background: #cff; }
-
-      .tools { margin-bottom: 10px; }
-      .tools a {
-        border: 1px solid black; height: 30px; line-height: 30px; padding: 0 10px; vertical-align: middle; text-align: center; text-decoration: none; display: inline-block; color: black; font-weight: bold;
-      }
+article canvas {
+	width: 800px;
+	height: 300px;
+}
+pre.source {
+	background: #e5eeee;
+	padding: 10px 20px;
+	width: 760px;
+	overflow-x: auto;
+	border: 1px solid #acc;
+}
+code {
+	background: #cff;
+}
+.tools {
+	margin-bottom: 10px;
+}
+.tools a {
+	border: 1px solid;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	border-radius: 50%;
+}

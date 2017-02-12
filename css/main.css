@@ -534,7 +534,7 @@ p, ul, ol, dl, table {
 }
 /* Button */
 
-input[type="button"],  input[type="submit"],  input[type="reset"],  .button,  button {
+input[type="button"], input[type="submit"], input[type="reset"], .button, button {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
@@ -557,7 +557,7 @@ input[type="button"],  input[type="submit"],  input[type="reset"],  .button,  bu
 	text-align: center;
 	text-decoration: none;
 }
-input[type="button"].down,  input[type="submit"].down,  input[type="reset"].down,  .button.down,  button.down {
+input[type="button"].down, input[type="submit"].down, input[type="reset"].down, .button.down, button.down {
 	width: 5em;
 	height: 5em;
 	line-height: 4.5em;
@@ -568,35 +568,35 @@ input[type="button"].down,  input[type="submit"].down,  input[type="reset"].down
 	text-indent: -10em;
 	overflow: hidden;
 }
-input[type="button"].down.anchored,  input[type="submit"].down.anchored,  input[type="reset"].down.anchored,  .button.down.anchored,  button.down.anchored {
+input[type="button"].down.anchored, input[type="submit"].down.anchored, input[type="reset"].down.anchored, .button.down.anchored, button.down.anchored {
 	bottom: 0;
 	border-bottom: 0;
 	border-radius: 3em 3em 0 0;
 	height: 4.5em;
 	margin-left: -2.5em;
 }
-input[type="button"].anchored,  input[type="submit"].anchored,  input[type="reset"].anchored,  .button.anchored,  button.anchored {
+input[type="button"].anchored, input[type="submit"].anchored, input[type="reset"].anchored, .button.anchored, button.anchored {
 	position: absolute;
 	left: 50%;
 }
-input[type="button"]:hover,  input[type="submit"]:hover,  input[type="reset"]:hover,  .button:hover,  button:hover {
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, .button:hover, button:hover {
 	background-color: #a8cea4;
 }
-input[type="button"]:active,  input[type="submit"]:active,  input[type="reset"]:active,  .button:active,  button:active {
+input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active, .button:active, button:active {
 	background-color: #88bc82;
 }
-input[type="button"].style2,  input[type="submit"].style2,  input[type="reset"].style2,  .button.style2,  button.style2 {
+input[type="button"].style2, input[type="submit"].style2, input[type="reset"].style2, .button.style2, button.style2 {
 	background-color: transparent;
 	border: solid 2px #e5e6e7;
 	color: inherit;
 }
-input[type="button"].style2:hover,  input[type="submit"].style2:hover,  input[type="reset"].style2:hover,  .button.style2:hover,  button.style2:hover {
+input[type="button"].style2:hover, input[type="submit"].style2:hover, input[type="reset"].style2:hover, .button.style2:hover, button.style2:hover {
 	background-color: rgba(229, 230, 231, 0.25);
 }
-input[type="button"].style2:active,  input[type="submit"].style2:active,  input[type="reset"].style2:active,  .button.style2:active,  button.style2:active {
+input[type="button"].style2:active, input[type="submit"].style2:active, input[type="reset"].style2:active, .button.style2:active, button.style2:active {
 	background-color: rgba(229, 230, 231, 0.375);
 }
-input[type="button"].style2.down,  input[type="submit"].style2.down,  input[type="reset"].style2.down,  .button.style2.down,  button.style2.down {
+input[type="button"].style2.down, input[type="submit"].style2.down, input[type="reset"].style2.down, .button.style2.down, button.style2.down {
 	background-image: url("images/arrow.svg");
 }
 /* Form */
@@ -647,7 +647,7 @@ form .field.half.first {
 label {
 	display: block;
 }
-input[type="text"],  input[type="password"],  input[type="email"],  input[type="tel"],  input[type="search"],  input[type="url"],  select,  textarea {
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select, textarea {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	-ms-appearance: none;
@@ -666,10 +666,10 @@ input[type="text"],  input[type="password"],  input[type="email"],  input[type="
 	border-radius: 0.5em;
 	outline: none;
 }
-input[type="text"]:focus,  input[type="password"]:focus,  input[type="email"]:focus,  input[type="tel"]:focus,  input[type="search"]:focus,  input[type="url"]:focus,  select:focus,  textarea:focus {
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="search"]:focus, input[type="url"]:focus, select:focus, textarea:focus {
 	border-color: #9ac8e9;
 }
-input[type="text"],  input[type="password"],  input[type="email"],  input[type="tel"],  input[type="search"],  input[type="url"],  select {
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], select {
 	line-height: 1.35em;
 }
 textarea {
@@ -907,7 +907,7 @@ table.default tfoot {
 	z-index: 1;
 	font-size: 0.9em;
 }
-.poptrox-popup .nav-next,  .poptrox-popup .nav-previous {
+.poptrox-popup .nav-next, .poptrox-popup .nav-previous {
 	-moz-transition: opacity 0.2s ease-in-out;
 	-webkit-transition: opacity 0.2s ease-in-out;
 	-ms-transition: opacity 0.2s ease-in-out;
@@ -921,7 +921,7 @@ table.default tfoot {
 	background: rgba(0, 0, 0, 0.01);
 	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
-.poptrox-popup .nav-next:before,  .poptrox-popup .nav-previous:before {
+.poptrox-popup .nav-next:before, .poptrox-popup .nav-previous:before {
 	content: '';
 	position: absolute;
 	width: 96px;
@@ -930,10 +930,10 @@ table.default tfoot {
 	top: calc(50% - 1.5em);
 	margin: -32px 0 0 0;
 }
-.poptrox-popup:hover .nav-next,  .poptrox-popup:hover .nav-previous {
+.poptrox-popup:hover .nav-next, .poptrox-popup:hover .nav-previous {
 	opacity: 0.5;
 }
-.poptrox-popup:hover .nav-next:hover,  .poptrox-popup:hover .nav-previous:hover {
+.poptrox-popup:hover .nav-next:hover, .poptrox-popup:hover .nav-previous:hover {
 	opacity: 1.0;
 }
 .poptrox-popup .nav-previous:before {
@@ -990,12 +990,12 @@ table.default tfoot {
 .poptrox-popup:hover .closer:hover {
 	opacity: 1.0;
 }
-body.is-touch .poptrox-popup .nav-next,  body.is-touch .poptrox-popup .nav-previous,  body.is-touch .poptrox-popup .closer {
+body.is-touch .poptrox-popup .nav-next, body.is-touch .poptrox-popup .nav-previous, body.is-touch .poptrox-popup .closer {
 	opacity: 1.0 !important;
 }
 
 @media screen and (max-width: 736px) {
-.poptrox-popup .nav-next:before,  .poptrox-popup .nav-previous:before {
+.poptrox-popup .nav-next:before, .poptrox-popup .nav-previous:before {
 	width: 48px;
 	height: 32px;
 	background-size: contain;
@@ -1409,7 +1409,7 @@ body.is-touch .poptrox-popup .nav-next,  body.is-touch .poptrox-popup .nav-previ
 	line-height: 3em;
 	padding: 0 2em 0 2em;
 	outline: 0;
-    font-weight: 600;
+	font-weight: 600;
 }
 #header nav ul li a:hover {
 	color: #e62b1e;
@@ -1776,13 +1776,10 @@ body.is-touch .main {
 	padding-bottom: 2em;
 }
 }
-
-#sketch-sec{
-	height: 540px;
+#sketch-sec {
+	padding: 50px 0;
 }
-
-#colors_sketch{
-	border: 1px solid #000;
+#colors_sketch {
 	margin: 0 auto;
 	display: block;
 }

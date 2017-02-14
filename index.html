@@ -45,7 +45,11 @@
 <!-- Intro -->
 <section id="intro" class="main style1 dark fullscreen">
   <div class="content">
-    <header> <img class="hvr-wobble-horizontal" alt="intro" id="intro-p" src="images/intro-p.svg" width="1300" height="500" style="position: relative;right: 22%;"> </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"> <img class="hvr-wobble-horizontal" alt="intro" src="images/intro-p.svg" width="1300" height="500"> </div>
+      </div>
+    </div>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, sunt incidunt, in vero minus ipsa blanditiis dolor voluptate quisquam natus.</p>
     <footer> <a href="#one" class="button style2 down">More</a> </footer>
   </div>
@@ -228,7 +232,7 @@ $( ".tools").live({
     $("body").on("touchmove", false);
 }
 });
-	</script>
+	</script> 
 <script type="text/javascript">
   $(function() {
     $.each(['#f00', '#ff0', '#0f0', '#0ff', '#00f', '#f0f', '#000', '#fff'], function() {
@@ -240,6 +244,5 @@ $( ".tools").live({
     $('#colors_sketch').sketch();
   });
 </script>
-
 </body>
 </html>

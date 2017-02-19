@@ -94,7 +94,5 @@ code {
 	-webkit-transition: opacity .25s ease-in-out;
 }
 #intro-image{
-	width: 40em;
-	height: 40em;
-	margin: -45px 0;
+	margin: 20px 0;
 }

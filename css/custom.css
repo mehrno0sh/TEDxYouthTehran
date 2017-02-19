@@ -70,3 +70,31 @@ code {
 	color: black;
 	border-radius: 50%;
 }
+#read-more {
+	color: #e62b1e;
+	text-decoration: none;
+}
+#read-more:hover {
+	color: #39454b;
+	transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-webkit-transition: all .25s ease-in-out;
+}
+.aparat {
+	opacity: 1;
+	position: absolute;
+	bottom: 16px;
+	left: 115px;
+	padding: 2px 10px;
+}
+.aparat:hover {
+	opacity: .8;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+}
+#intro-image{
+	width: 40em;
+	height: 40em;
+	margin: -45px 0;
+}

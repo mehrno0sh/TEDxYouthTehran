@@ -485,7 +485,7 @@ a {
 	-webkit-transition: color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out;
-	color: #98c593;
+	color: #e62b1e;
 }
 sub {
 	position: relative;
@@ -558,8 +558,8 @@ input[type="button"], input[type="submit"], input[type="reset"], .button, button
 	text-decoration: none;
 }
 input[type="button"].down, input[type="submit"].down, input[type="reset"].down, .button.down, button.down {
-	width: 5em;
-	height: 5em;
+	width: 3em;
+	height: 3em;
 	line-height: 4.5em;
 	padding: 0;
 	background-image: url("images/dark-arrow.svg");
@@ -1458,7 +1458,6 @@ body {
 	overflow-x: hidden;
 }
 .main > .content {
-	width: 45em;
 	max-width: calc(100% - 4em);
 	margin: 0 auto;
 }
@@ -1644,7 +1643,7 @@ body.is-touch .main {
 
 #footer {
 	position: relative;
-	height: 24em;
+	height: 26em;
 	margin: 0;
 	background: #39454b;
 	color: rgba(255,255,255,0.8);
@@ -1661,7 +1660,7 @@ body.is-touch .main {
 	left: 1em;
 	top: 0.25em;
 	height: 5em;
-	line-height: 5em;
+	line-height: 3em;
 	margin: 0;
 }
 #footer ul.actions li {

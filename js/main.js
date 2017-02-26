@@ -237,4 +237,9 @@
 })(jQuery);
 
 
-//menu
+//sketch
+ $(".tools").live({
+        popupbeforeposition: function(event, ui) {
+            $("body").on("touchmove", false);
+        }
+    });

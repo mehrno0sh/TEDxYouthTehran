@@ -627,6 +627,7 @@ blockquote {
     font-style: italic;
 }
 
+
 /* Box */
 
 .box {
@@ -2138,6 +2139,7 @@ body.is-touch .main {
 #footer .aboutTed {
     margin-bottom: 50px;
 }
+
 #footer .copyright {
     border-top: 1px solid rgba(255, 255, 255, 0.8);
     padding: 10px 0;
@@ -2285,106 +2287,170 @@ body.is-touch .main {
     height: 400px;
 }
 
-
 @charset "utf-8";
+
 /* CSS Document */
+
 .gallery article .image {
-	opacity: 1;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
 }
+
 .gallery article .image:hover {
-	opacity: 0.8;
+    opacity: 0.8;
 }
-.from-left h3, .from-right h3 {
-	position: absolute;
-	bottom: 30px;
-	left: 25px;
-	color: #fff;
-	padding: 2px 10px;
+
+.from-left h3,
+.from-right h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    color: #fff;
+    padding: 2px 10px;
 }
+
+
 /* CTA */
 
 #cta {
-	background: #e62b1e; /* fallback for old browsers */
-	color: #fff;
-	padding: 3em 0;
-	text-align: center;
+    background: #e62b1e;
+    /* fallback for old browsers */
+    color: #fff;
+    padding: 3em 0;
+    text-align: center;
 }
-#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
-	color: #fff;
+
+#cta h2,
+#cta h3,
+#cta h4,
+#cta h5,
+#cta h6 {
+    color: #fff;
 }
+
 .nom-inate img {
-	width: 80px;
-	height: 80px;
+    width: 80px;
+    height: 80px;
 }
-.nom-inate{
-	padding: 50px 0 0;
+
+.nom-inate {
+    padding: 50px 0 0;
 }
+
 .nom-inate a {
-	text-decoration: none;
+    text-decoration: none;
 }
+
+
 /* Sketch */
 
 #sketch-sec {
-	background: url(../images/white-wall.jpg);
+    background: url(../images/white-wall.jpg);
 }
+
 article canvas {
-	width: 800px;
-	height: 300px;
+    width: 800px;
+    height: 300px;
 }
+
 pre.source {
-	background: #e5eeee;
-	padding: 10px 20px;
-	width: 760px;
-	overflow-x: auto;
-	border: 1px solid #acc;
+    background: #e5eeee;
+    padding: 10px 20px;
+    width: 760px;
+    overflow-x: auto;
+    border: 1px solid #acc;
 }
+
 code {
-	background: #cff;
+    background: #cff;
 }
+
 .tools {
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 .tools a {
-	border: 1px solid;
-	height: 30px;
-	line-height: 30px;
-	padding: 0 15px;
-	vertical-align: middle;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	color: black;
-	border-radius: 50%;
+    border: 1px solid;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border-radius: 50%;
 }
+
 #read-more {
-	color: #e62b1e;
-	text-decoration: none;
+    color: #e62b1e;
+    text-decoration: none;
 }
+
 #read-more:hover {
-	color: #39454b;
-	transition: all .25s ease-in-out;
-	-moz-transition: all .25s ease-in-out;
-	-webkit-transition: all .25s ease-in-out;
+    color: #39454b;
+    transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
 }
+
 .aparat {
-	opacity: 1;
-	position: absolute;
-	bottom: 16px;
-	left: 115px;
-	padding: 2px 10px;
+    opacity: 1;
+    position: absolute;
+    bottom: 16px;
+    left: 115px;
+    padding: 2px 10px;
 }
+
 .aparat:hover {
-	opacity: .8;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
+    opacity: .8;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
 }
-#intro-image{
-	margin: 20px 0;
+
+#intro-image {
+    margin: 20px 0;
 }
-#pageConatiner{
-padding: 80px 0;
+
+#pageConatiner {
+    padding: 80px 0;
+}
+
+.titlePages,
+.titlePagesCenter{
+    padding-bottom: 18px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.titlePages:before {
+    content: "";
+    border-bottom: 1px solid #2a2f46;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80px;
+}
+
+.titlePagesCenter:before {
+    content: "";
+    border-bottom: 1px solid #2a2f46;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80px;
+}
+
+.nominateForm {
+    padding: 80px 0;
+}
+
+.nominateFormTitle {
+    text-align: center;
 }

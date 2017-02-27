@@ -1821,7 +1821,9 @@ body.is-touch .poptrox-popup .closer {
 }
 
 .nav-collapse a:active,
-.nav-collapse .active a {
+.nav-collapse a:focus,
+.nav-collapse .active a,
+.nav-collapse .active a:focus {
     background: #e62b1e;
     color: #fff;
 }
